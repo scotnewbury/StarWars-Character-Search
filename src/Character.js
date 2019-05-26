@@ -5,7 +5,7 @@ export class Character extends Component {
   render() {
     const {name, height, mass, birth_year} = this.props.character;
     return (
-      <div className = 'bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5 tc'>
+      <div className = 'bg-light-yellow dib br4 pa3 ma2 grow bw2 shadow-5 tc'>
         <p>Name: {name}</p>
         <p>Height: {height}</p>
         <p>Mass: {mass}</p>
